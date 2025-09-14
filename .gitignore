@@ -1,0 +1,23 @@
+# Secrets and environment files
+*.local.json
+appsettings.local.json
+
+# Azure CLI cache and local state
+.azure/
+
+# Build artifacts
+**/bin/
+**/obj/
+**/publish/
+
+# Container build context
+.dockerignore
+
+# IDE files
+.vs/
+.vscode/settings.json
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
